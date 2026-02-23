@@ -1,0 +1,10 @@
+@SeguroAPI_HostAddress = http://localhost:5182
+
+### Gerar Apólice de Seguro - Produto 215
+POST {{SeguroAPI_HostAddress}}/api/apolice
+Content-Type: application/json
+
+{
+  "nomeSegurado": "João Silva",
+  "placaVeiculo": "ABC1234"
+}
